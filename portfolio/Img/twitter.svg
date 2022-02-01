@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   class="feather feather-twitter"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="twitter.svg"
+   inkscape:export-filename="C:\Users\Asus\Desktop\VS code\twicon.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="16.916667"
+     inkscape:cx="6.3842363"
+     inkscape:cy="14.512315"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M 19.158752,6.1677077 A 7.0936736,7.0936736 0 0 1 17.115253,7.1634252 2.915565,2.915565 0 0 0 11.999998,9.1158124 V 9.7666082 A 6.9374827,6.9374827 0 0 1 6.1428364,6.8185034 c 0,0 -2.6031829,5.8571616 3.2539788,8.4603446 a 7.5752626,7.5752626 0 0 1 -4.5555703,1.301591 c 5.8571621,3.25398 13.0159151,0 13.0159151,-7.4841505 A 2.9285809,2.9285809 0 0 0 17.8051,8.556128 5.0241432,5.0241432 0 0 0 19.158755,6.1677077 Z"
+     id="path2"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.780954;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+</svg>

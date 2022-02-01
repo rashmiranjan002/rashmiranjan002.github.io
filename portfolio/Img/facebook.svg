@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   class="feather feather-facebook"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="facebook.svg"
+   inkscape:export-filename="C:\Users\Asus\Desktop\VS code\fbicon.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="16.916667"
+     inkscape:cx="3.7832512"
+     inkscape:cy="10.256157"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M 15.903941,4.9019256 H 13.774519 A 3.5490372,3.5490372 0 0 0 10.225481,8.4509628 V 10.580385 H 8.0960591 v 2.83923 h 2.1294219 v 5.678459 h 2.83923 v -5.678459 h 2.129422 l 0.709808,-2.83923 h -2.83923 V 8.4509628 a 0.70980744,0.70980744 0 0 1 0.709808,-0.7098074 h 2.129422 z"
+     id="path2"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.709807;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+</svg>

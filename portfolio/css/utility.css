@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navigation{
+    top: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    z-index: 2;
+    /* filter: drop-shadow(0px 1px 3px black); */
+}
+
+.nav-left{
+    margin: 0 10px;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot{
+    background-color: #0050ff;
+    width: 16px;
+    height: 16px;
+    border: none;
+
+}
+
+.nav-left div{
+    font-size: 1.5rem;
+    padding: 0 20px 0;
+}
+
+.nav-left div a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.logo-resp{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    left: 4%;
+    top: 10px;
+}
+.logo-resp div{
+    font-size: 1.5rem;
+    padding: 0 20px 0;
+}
+
+.logo-resp div a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.nav-right{
+    width: 70vw;
+}
+
+.nav-right ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.nav-right ul li{
+    margin: 5px 20px;
+    padding: 5px 10px;
+    list-style: none;
+}
+.nav-right ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+.nav-right ul li a:hover{
+    color: #0050ff;
+}
+.nav-right ul li a.active{
+    color: #0050ff;
+}
+
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f4ece6;
+    z-index: 2;
+}
+
+.foot-left{
+    margin-left: 95px;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+}
+
+.copy{
+    padding: 0 3px;
+}
+.foot-left div{
+    font-size: 18px;
+    
+}
+.foot-left div p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: lighter;
+}
+.foot-right{
+    width: 70vw;
+}
+.foot-right ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.foot-right ul li{
+    margin: 5px 20px;
+    padding: 5px 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.foot-right ul li h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.foot-right ul li p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.socials img{
+    width: 25px;
+    cursor: pointer;
+}
+
+.socials img:hover{
+    filter: invert(33%) sepia(100%) saturate(6851%) hue-rotate(222deg) brightness(101%) contrast(109%);
+}
+
+/* .burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 26px;
+    background-color: #0050ff;
+    height: 2px;
+    margin: 6px 3px;
+} */
+
+/* HAMBURGER */
+
+.hamburger{
+    display:  flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    right: 4%;
+    top: 11px;
+    height: 30px;
+    width: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    /* border: 2px solid #0050ff; */
+}
+.line1, .line2, .line3{
+    display: none;
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 2px;
+    background: #0050ff;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+/* .line::before,
+.line::after{
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 2px;
+    background: #0050ff;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+} */
+.line1{
+    transform: translateY(-10px);
+}
+.line3{
+    transform: translateY(10px);
+}
+/* Animation */
+.hamburger.open .line2{
+    background: transparent;
+}
+.hamburger.open .line1{
+    transform: rotate(45deg);
+}
+.hamburger.open .line3{
+    transform: rotate(-45deg);
+}
+
