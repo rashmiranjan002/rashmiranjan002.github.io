@@ -8,6 +8,34 @@
     <title>Notes App</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: rgb(237, 237, 237);
+        }
+        .cont{
+            font-size: 2rem;
+        }
+        .note{
+            font-size: 1.5rem;
+        }
+        .card{
+            border: none;
+            border-radius: 0.75rem;
+        }
+        .card-body{
+            background-color: #ffe2bb;
+            border-radius: 0.75rem;
+        }
+        .btn{
+            border-radius: 1.75rem;
+        }
+        .form-control{
+            border-radius: 1.75rem;
+        }
+        textarea.form-control{
+            border-radius: 0.25rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -35,7 +63,7 @@
 
 
     <div class="container my-3">
-        <h1>Welcome To Magic Notes</h1>
+        <h1 class="cont">Magic Notes</h1>
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Add a note</h5>
@@ -46,7 +74,7 @@
             </div>
         </div>
         <hr>
-        <h1>Your Notes</h1>
+        <h1 class="note">Your Notes</h1>
         <hr>
         <div id="notes" class="row container-fluid"> </div>
     </div>
