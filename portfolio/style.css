@@ -28,7 +28,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 75vh;
+    height: 65vh;
     filter: drop-shadow(-11px 13px 11px rgba(0,0,0,0.4));
     width: 330px;
     background-color: #f4ece6;
@@ -56,8 +56,8 @@
 }
 
 .social-links{
-    background-color: white;
-    margin: 123px 0 -130px;
+    /* background-color: white; */
+    /* margin: 123px 0 -130px; */
     height: 50px;
     padding: 0 0 0;
     width: 330px;
@@ -69,6 +69,9 @@
     width: 33px;
     padding: 6px 0px 0px
 }
+.social-links img:hover{
+    filter: invert(33%) sepia(100%) saturate(6851%) hue-rotate(222deg) brightness(101%) contrast(109%);
+}
 
 
 .devInfo{
@@ -78,6 +81,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.devInfo h1, h2, p{
+    font-family: 'Poppins', sans-serif;
 }
 
 .buttons{
