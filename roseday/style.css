@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-  position: absolute;
-  left: 50%;
+  position: fixed;
+  left: 65%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
@@ -269,15 +269,15 @@ body {
 .text {
   font-family: cursive;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
   justify-content: center;
-  color: rgb(245, 20, 84);
+  color: rgb(207, 7, 64);
   text-shadow: 0 0 20px rgb(241, 94, 106);
   margin-left: -100px;
 }
 .text a {
-  color: rgb(245, 20, 84);
+  color: rgb(0, 111, 130);
 }
 .text a:hover {
   color: white;
